@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "MeuApp",
+    "slug": "meuapp",
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0", 
+    "platforms": ["ios", "android"],
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.exemplo.meuapp",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Precisamos acessar sua câmera para tirar fotos.",
+        "NSLocationWhenInUseUsageDescription": "Precisamos acessar sua localização para mostrar no mapa."
+      }
+    },
+    "android": {
+      "package": "com.exemplo.meuapp",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "SEND_SMS"
+      ]
+    }
+  }
+}
